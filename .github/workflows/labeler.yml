@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: thomasjpfan/labeler@v2.4.6
       continue-on-error: true
-      if: github.repository == 'scikit-learn/scikit-learn'
+      if: github.repository == 'DanielAtKrypton/scikit-learn'
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         max-labels: "3"

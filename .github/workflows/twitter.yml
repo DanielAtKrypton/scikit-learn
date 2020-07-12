@@ -18,7 +18,7 @@ jobs:
         if: github.repository == 'scikit-learn/scikit-learn'
         uses: xorilog/twitter-action@0.1
         with:
-          args: "-message \"https://github.com/scikit-learn/scikit-learn/commit/${{ github.sha }}\""
+          args: "-message \"https://github.com/DanielAtKrypton/scikit-learn/commit/${{ github.sha }}\""
         env:
           TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
           TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
